@@ -1,0 +1,162 @@
+*
+{
+    padding:0px ;
+    margin:0px;
+}
+body
+{
+    width:100%;
+    height:100%;
+    color: black;
+}
+.navbar,.nav-2
+{
+    color: black;
+    width: 100%;
+    height:40px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+}
+#arrow_back ,#arrow_forward ,#refresh
+{
+    position: relative;
+    top:7px;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 4px;
+}
+#app ,#user
+{
+    position: relative;
+    top:7px;
+    cursor: pointer;
+}
+.components > li
+{
+    display: inline-flex;
+    position: relative;
+    left:1130px;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: large;
+    cursor:pointer;
+}
+
+
+#search
+{
+    width:570px;
+    height:40px;
+    border:0px;
+    border-color: white;
+    text-decoration: none;
+    border-style: none;
+}
+.box
+{
+    width:650px;
+    height:40px;
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;    
+    box-shadow:  1px 1px 1px 1px;
+    border-color: white;
+    border: 0px;
+    
+}
+#search-icon
+{
+    position: relative;
+    top:6px;
+    right:2px;
+}
+
+#mic
+{
+    position: relative;
+    right:40px;
+    top:5px;
+    cursor: pointer;
+}
+#pic
+{
+    position: relative;
+    left:296px;
+    bottom:35px;
+    cursor: pointer;
+}
+#search-nav
+{
+    width:1160px;
+    height:30px;
+    border: lightgrey;
+    text-decoration: none;
+    background-color: lightgrey ;
+    border-radius: 40px 40px 40px 40px;
+    position: relative;
+    top:6px;
+}
+
+#music ,#web ,#person,#dot
+{
+    
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.section
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    width: 580px;
+    height:250px;
+}
+.section >.select
+{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:15px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+}
+.image
+{
+    border-radius: 45px;
+}
+.select .tooltiptext
+{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.select:hover .tooltiptext
+{
+    visibility: visible;
+    background-color: burlywood;
+}
+.select:hover ,#mic:hover,#search-icon:hover,#pic:hover,#arrow_back:hover,#arrow_forward:hover,#music:hover,#refresh:hover,#app:hover,#user:hover,
+#person:hover,#dot:hover,#web:hover
+{
+    background-color: lightgrey;
+}
+.search:click
+{
+   
+    border-color: white;
+}
+a
+{
+    text-decoration: none;  
+    color:black 
+}
+a::after ,a::before
+{
+    color:black
+}

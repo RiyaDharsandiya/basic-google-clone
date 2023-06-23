@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>google.com</title>
+    <script>
+        function image()
+        {
+        document.getElementById('image').style.textDecoration='underline';
+        }
+        function mail()
+        {
+            document.getElementById('gmail').style.textDecoration='underline';
+        }
+        function remove()
+        {
+            document.getElementById('gmail').style.textDecoration='none';
+            
+        }
+        function remove2()
+        {
+            document.getElementById('image').style.textDecoration='none';
+        }
+        
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <i class="material-icons" id="arrow_back">arrow_back</i>
+            <i class="material-icons" id="arrow_forward">arrow_forward</i>
+            <i class="material-icons" id="refresh">refresh</i>
+            <img src="googleicon.png" width="40px" height="40px"><input type="search" id="search-nav" placeholder="Search google or type by URL" onclick="alert('you have clicked in search field.')">
+            <span class="material-icons" id="music">
+                queue_music
+                </span>
+                <span class="material-icons" id="web">
+                    web
+                    </span>
+                    <span class="material-icons"id='person'>
+                        <a href="https://accounts.google.com/signup/v2/createaccount?flowName=GlifWebSignIn&flowEntry=SignUp" target="_blank">person
+                        </span></a>
+                <span class="material-icons" id="dot">more_vert
+                        </span>
+        </div>
+        <hr/>
+        <div class="nav-2">
+            <ul class="components">
+                <li onmouseover="mail()" onmouseleave="remove()" id="gmail"><a href="https://accounts.google.com/signup/v2/createaccount?flowName=GlifWebSignIn&flowEntry=SignUp" target="_blank">Gmail</li></a>
+                <li onmouseover="image()" onmouseleave="remove2()" id="image"><a href="https://www.google.com/photos/about/" target="_blank">Images</li></a>
+                <li><i class="material-icons" id="app"><a href="https://chrome.google.com/webstore/category/extensions
+                    person" target="_blank">apps</i></li></a>
+                <li ><span class="material-icons" id="user">
+                    <a href="https://accounts.google.com/signup/v2/createaccount?flowName=GlifWebSignIn&flowEntry=SignUp" target="_blank">person
+                    </span></li></a>
+            </ul>
+        </div>
+    </nav>
+    
+        <center><img src="google.png" id="google">
+        <br>
+        <form>
+            <div class="box">
+            <i class="material-icons" id="search-icon" >search</i>
+            <input type="search" id="search" placeholder="Search google or type by URL" onclick="alert('you have clicked in search field.')" >
+            <span class="material-icons" id="mic">mic</span>
+            <span class="material-icons" id="pic">center_focus_strong</span>
+            </div>
+        </form>
+        
+
+        <div class="section">
+            <div class="select"><a href="https://www.udemy.com/" target="_blank"><img src="udemy.png" width="40px" height="40px" class="image" ><span class="tooltiptext">Online course</span>Online course</div></a>
+            <div class="select"><a href="https://www.coursera.org/" target="_blank"><img src="coursera.png" width="40px" height="40px" class="image"><span class="tooltiptext">Coursea</span>Coursea</div></a>
+            <div class="select"><a href="https://meet.google.com/" target="_blank"><img src="googlemeet.webp" width="40px" height="40px" class="image"><span class="tooltiptext">Google meet</span>Google meet</div></a>
+            <div class="select"><a href="https://trainings.internshala.com/login/" target="_blank"><img src="internshalla.png" width="40px" height="40px" class="image"><span class="tooltiptext">Internshala</span>Internshala</div></a>
+            <div class="select"><a href="https://accounts.google.com/signup/v2/createaccount?flowName=GlifWebSignIn&flowEntry=SignUp" target="_blank"><img src="mail.jpg" width="40px" height="40px" class="image"><span class="tooltiptext">Gmail</span>Gmail</div></a>
+            <div class="select"><a href="https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en" target="_blank"><img src="news.png" width="40px" height="40px" class="image"><span class="tooltiptext">News</span>News</div></a>
+            <div class="select"><a href="https://web.whatsapp.com/" target="_blank"><img src="web.jpg" width="40px" height="40px" class="image"><span class="tooltiptext">Whatsapp Web</span>Whatsapp Web</div></a></a>
+            <div class="select"><a href="https://zoom.us/" target="_blank"><img src="zoom.webp" width="40px" height="40px" class="image"><span class="tooltiptext">Zoom</span>Zoom</div></a></a>
+            <div class="select"><a href="https://www.youtube.com/" target="_blank"><img src="yt.jpg" width="40px" height="40px" class="image"><span class="tooltiptext">Youtube</span>Youtube</div></a>
+            <div class="select"><span class="material-icons">add</span><br><span class="tooltiptext">Add shortcut</span>Add shortcut</div>
+        </div>
+        </center>
+</body>
+</html>
